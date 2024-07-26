@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Added fallback font */
+    color: #ccc; /* Light grey for better readability on dark background */
+    background-color: #040404; /* Very dark background */
+    margin: 0; /* Changed from unset to 0 for consistency */
+    padding: 0 0 2% 0; /* Only padding-bottom is needed */
+}
+
+/* Banner styling */
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+}
+
+/* Left image styling */
+.left-img {
+    margin: 3em 1em 0 3em; /* Consolidated margin values */
+    width: 12em;
+    display: inline-block;
+}
+
+/* Left banner styling */
+.left-banner {
+    margin: 1em 0 0 3em; /* Consolidated margin values */
+    float: left;
+}
+
+/* Heading styling */
+.heading {
+    display: inline-block;
+}
+
+/* Main section styling */
+.main-section {
+    margin: auto;
+    width: 80%;
+}
+
+/* Table styling */
+table {
+    text-align: left;
+    width: 100%; /* Ensures table takes full width of its container */
+    border-collapse: collapse; /* Removes spacing between table cells */
+}
+
+/* Table header styling */
+th {
+    padding: 1.2em 1.2em; /* Reduced padding for better alignment */
+    font-size: large;
+    border-bottom: 2px solid grey; /* Added border to header cells */
+}
+
+/* Table cell styling */
+td {
+    padding: 1.2em;
+    border-bottom: 2px solid grey; /* Consistent border for all cells */
+}
+
+/* Table row hover effect */
+tr:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1); /* Slight background color for better visibility */
+}
+
+/* Song-specific column styling */
+.song-number {
+    width: 20px;
+}
+
+.song-title {
+    width: 550px;
+}
+
+.song-artist {
+    width: 250px;
+}
+
+.song-duration {
+    width: 100px;
+}
+
+/* Controls image styling */
+.controls img {
+    margin-top: 1em;
+    width: 3.5em;
+}
